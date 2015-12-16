@@ -1,108 +1,138 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <title>appTest</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-    
-  </head>
-  <body>
-    <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-    
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#"><i class="material-icons md-24">home</i></a></li>
-          <li><a href="#"><i class="material-icons md-24">info_outline</i></a></li>
-          <li><a href="#"><i class="material-icons md-24">perm_contact_calendar</i></a></li>
-        </ul>
-        <h3 class="text-muted">Apptest</h3>
+<head>
+  <meta charset="utf-8">
+  <title>Site CV</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/timeline.css">
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <ul class="nav nav-pills pull-right">
+        <li><a href="#">A propos</a></li>
+        <li><a href="#">Compétences</a></li>
+        <li><a href="#">Expériences</a></li>
+      </ul>
+      <h3 class="text-muted">Nicolas RAMOND</h3>
+    </div>
+    <div class="apropos">
+      <h2>A propos</h2>
+      <div class="aproposLeft">
+        <img src="images\ic_account_circle_48pt_3x.png" class="opacity">
       </div>
-
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4><a href="https://html5boilerplate.com/">HTML5 Boilerplate</a></h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-          <h4><a href="http://libsass.org/">Sass</a></h4>
-          <p>Sass is a mature, stable, and powerful professional grade CSS extension language.</p>
-          
-
-          <h4><a href="http://getbootstrap.com/">Bootstrap</a></h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-          <h4><a href="http://modernizr.com/">Modernizr</a></h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-          
-        </div>
-      </div>
-
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+      <div class="aproposRight">
+        <p><i class="material-icons md-18">place</i> 6 lotissements de Bénèche 81430 Villefranche d’ Albigeois</p>
+        <p><i class="material-icons md-18">call</i>
+          <a href="callto:06.77.03.25.79"> 06.77.03.25.79</a>
+        </p>
+        <p><i class="material-icons md-18">mail outline</i>
+          <a href="mailto:nicolasramond21@gmail.com"> nicolasramond21@gmail.com</a>
+        </p>
+        <p><i class="material-icons md-18">cake</i> 07 novembre 1994</p>
+        <p><i class="material-icons md-18">directions_car</i> Permis B</p>
       </div>
     </div>
-    
 
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
+    <div class="row marketing">
+      <h3 class="sousTitre">Compétences</h3>
+      <div class="col-lg-6">
+        <h4>Langages et Framework</h4>
+        <ul class="skills">
+          <li class="skill">JavaScript <span class="skill-5"></span></li>
+          <li class="skill">HTML5, CSS3 <span class="skill-5"></span></li>
+          <li class="skill">JAVA <span class="skill-4"></span></li>
+          <li class="skill">Backbone.js <span class="skill-4"></span></li>
+          <li class="skill">PHP <span class="skill-3"></span></li>
+          <li class="skill">Android <span class="skill-3"></span></li>
+          <li class="skill">C++ <span class="skill-3"></span></li>
+        </ul>
+        <h4>Bureautique</h4>
+        <ul class="skills">
+          <li class="skill">Pack Office <span class="skill-4"></span></li>
+          <li class="skill">PhotoShop <span class="skill-2"></span></li>
+        </ul>
+        <h4>Langues</h4>
+        <ul class="skills">
+          <li class="skill">Anglais <span class="skill-4"></span></li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <h4>Outils</h4>
+        <ul class="skills">
+          <li class="skill">Git <span class="skill-3"></span></li>
+          <li class="skill">JIRA (agile) <span class="skill-3"></span></li>
+        </ul>
+        <h4>Base de données</h4>
+        <ul class="skills">
+          <li class="skill">MySQL <span class="skill-3"></span></li>
+        </ul>
+        <h4>Analyse</h4>
+        <ul class="skills">
+          <li class="skill">UML <span class="skill-3"></span></li>
+        </ul>
+        <h4>Système d'exploitation</h4>
+        <ul class="skills">
+          <li class="skill">Windows <span class="skill-3"></span></li>
+          <li class="skill">Linux <span class="skill-3"></span></li>
+          <li class="skill">Mac OS <span class="skill-3"></span></li>
+        </ul>
+      </div>
+    </div>
 
-    
-    <!-- build:js(.) scripts/plugins.js -->
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
-    <!-- endbuild -->
-    
+    <div class="row marketing">
+      <h3 class="sousTitre">Expériences</h3>
+      <section id="cd-timeline">
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture">
+            <i class="material-icons md-24">computer</i>
+          </div>
+          <div class="cd-timeline-content">
+            <h3>Développeur architecte junior</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+            <a href="#0" class="cd-read-more">Read more</a>
+            <span class="cd-date">Octobre 2014 à ce jour </span>
+          </div>
+        </div>
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture">
+            <i class="material-icons md-24">school</i>
+          </div>
+          <div class="cd-timeline-content">
+            <h3>Licence STS - mention Informatique générale </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+            <a href="#0" class="cd-read-more">Read more</a>
+            <span class="cd-date">2015 </span>
+          </div>
+        </div>
+      </section>
+    </div>
 
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
+    <div class="footer">
+      <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+    </div>
+  </div>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
-  </body>
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+
+  <script src="scripts/main.js"></script>
+</body>
 </html>
