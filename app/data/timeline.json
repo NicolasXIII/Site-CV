@@ -1,0 +1,58 @@
+[
+  {
+    "titre": "Développeur architecte junior",
+    "etablissement": "Société SYLOB",
+    "description":"",
+    "icone": "computer",
+    "date": "Octobre 2014 à ce jour",
+    "link": "https://www.sylob.com/"
+  },
+  {
+    "titre": "Formation Backbone.js",
+    "etablissement": "Société SYLOB",
+    "description":"",
+    "icone": "school",
+    "date": "Octobre 2015",
+    "link": "https://www.sylob.com/"
+  },
+  {
+    "titre": "Licence STS - mention Informatique générale",
+    "etablissement": "IPST-CNAM",
+    "description":"",
+    "icone": "school",
+    "date": "2015",
+    "link": "http://www.ipst-cnam.fr/"
+  },
+  {
+    "titre": "Développeur Web",
+    "etablissement": "Société INFOCERT",
+    "description":"",
+    "icone": "computer",
+    "date": "Juillet 2014",
+    "link": "https://www.sylob.com/"
+  },
+  {
+    "titre": "BTS - Informatique et Réseaux pour l’Industrie et les Services Techniques",
+    "etablissement": "Lycée Saint-Pierre",
+    "description":"",
+    "icone": "school",
+    "date": "2014",
+    "link": "http://www.lsp65.com/"
+  },
+  {
+    "titre": "Développeur Web",
+    "etablissement": "Société INFOCERT",
+    "description":"",
+    "icone": "computer",
+    "date": "Juillet 2013",
+    "link": "http://www.infocert.org/"
+  },
+  {
+    "titre": "Bac pro - Electrotechnique, énergie, équipements communicants",
+    "etablissement": "Lycée Louis Rascol",
+    "description":"",
+    "icone": "school",
+    "date": "2012",
+    "link": "http://louis-rascol.entmip.fr/les-formations/bac-pro-electrotechnique-energie-equipements-communicants-4288.htm"
+  }
+]

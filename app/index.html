@@ -1,138 +1,27 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html>
 <head>
   <meta charset="utf-8">
   <title>Site CV</title>
-  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="/favicon.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/timeline.css">
-  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <script data-main="scripts/main" src="../bower_components/requirejs/require.js"></script>
 </head>
 <body>
   <div class="container">
-    <div class="header">
-      <ul class="nav nav-pills pull-right">
-        <li><a href="#">A propos</a></li>
-        <li><a href="#">Compétences</a></li>
-        <li><a href="#">Expériences</a></li>
-      </ul>
-      <h3 class="text-muted">Nicolas RAMOND</h3>
-    </div>
-    <div class="apropos">
-      <h2>A propos</h2>
-      <div class="aproposLeft">
-        <img src="images\ic_account_circle_48pt_3x.png" class="opacity">
-      </div>
-      <div class="aproposRight">
-        <p><i class="material-icons md-18">place</i> 6 lotissements de Bénèche 81430 Villefranche d’ Albigeois</p>
-        <p><i class="material-icons md-18">call</i>
-          <a href="callto:06.77.03.25.79"> 06.77.03.25.79</a>
-        </p>
-        <p><i class="material-icons md-18">mail outline</i>
-          <a href="mailto:nicolasramond21@gmail.com"> nicolasramond21@gmail.com</a>
-        </p>
-        <p><i class="material-icons md-18">cake</i> 07 novembre 1994</p>
-        <p><i class="material-icons md-18">directions_car</i> Permis B</p>
-      </div>
-    </div>
-
-    <div class="row marketing">
-      <h3 class="sousTitre">Compétences</h3>
-      <div class="col-lg-6">
-        <h4>Langages et Framework</h4>
-        <ul class="skills">
-          <li class="skill">JavaScript <span class="skill-5"></span></li>
-          <li class="skill">HTML5, CSS3 <span class="skill-5"></span></li>
-          <li class="skill">JAVA <span class="skill-4"></span></li>
-          <li class="skill">Backbone.js <span class="skill-4"></span></li>
-          <li class="skill">PHP <span class="skill-3"></span></li>
-          <li class="skill">Android <span class="skill-3"></span></li>
-          <li class="skill">C++ <span class="skill-3"></span></li>
-        </ul>
-        <h4>Bureautique</h4>
-        <ul class="skills">
-          <li class="skill">Pack Office <span class="skill-4"></span></li>
-          <li class="skill">PhotoShop <span class="skill-2"></span></li>
-        </ul>
-        <h4>Langues</h4>
-        <ul class="skills">
-          <li class="skill">Anglais <span class="skill-4"></span></li>
-        </ul>
-      </div>
-      <div class="col-lg-6">
-        <h4>Outils</h4>
-        <ul class="skills">
-          <li class="skill">Git <span class="skill-3"></span></li>
-          <li class="skill">JIRA (agile) <span class="skill-3"></span></li>
-        </ul>
-        <h4>Base de données</h4>
-        <ul class="skills">
-          <li class="skill">MySQL <span class="skill-3"></span></li>
-        </ul>
-        <h4>Analyse</h4>
-        <ul class="skills">
-          <li class="skill">UML <span class="skill-3"></span></li>
-        </ul>
-        <h4>Système d'exploitation</h4>
-        <ul class="skills">
-          <li class="skill">Windows <span class="skill-3"></span></li>
-          <li class="skill">Linux <span class="skill-3"></span></li>
-          <li class="skill">Mac OS <span class="skill-3"></span></li>
-        </ul>
-      </div>
-    </div>
-
+    <div class="header"></div>
+    <div class="apropos"></div>
+    <div id="competences" class="row marketing"></div>
     <div class="row marketing">
       <h3 class="sousTitre">Expériences</h3>
-      <section id="cd-timeline">
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img cd-picture">
-            <i class="material-icons md-24">computer</i>
-          </div>
-          <div class="cd-timeline-content">
-            <h3>Développeur architecte junior</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-            <a href="#0" class="cd-read-more">Read more</a>
-            <span class="cd-date">Octobre 2014 à ce jour </span>
-          </div>
-        </div>
-        <div class="cd-timeline-block">
-          <div class="cd-timeline-img cd-picture">
-            <i class="material-icons md-24">school</i>
-          </div>
-          <div class="cd-timeline-content">
-            <h3>Licence STS - mention Informatique générale </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-            <a href="#0" class="cd-read-more">Read more</a>
-            <span class="cd-date">2015 </span>
-          </div>
-        </div>
-      </section>
+      <section id="cd-timeline"></section>
     </div>
-
+    <a href="#0" class="cd-top">Top</a>
     <div class="footer">
       <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
     </div>
   </div>
-
-  <script src="/bower_components/jquery/dist/jquery.js"></script>
-
-  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
-  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
-  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
-  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
-  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
-  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
-  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
-  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
-  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
-  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
-  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
-  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
-
-  <script src="scripts/main.js"></script>
 </body>
 </html>
