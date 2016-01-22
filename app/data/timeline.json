@@ -2,18 +2,18 @@
   {
     "titre": "Développeur architecte junior",
     "etablissement": "Société SYLOB",
-    "description":"",
+    "description":"<p>Réalisation d’une application web complexe architecturée avec Backbone.js et JAXB côté serveur.</p><p>Mise en place de services Web de type REST pour le traitement des données.</p><p>Réalisation d’une documentation technique pour Backbone.js.</p>",
     "icone": "computer",
     "date": "Octobre 2014 à ce jour",
     "link": "https://www.sylob.com/"
   },
   {
     "titre": "Formation Backbone.js",
-    "etablissement": "Société SYLOB",
+    "etablissement": "Société SYLOB (par clever-institut)",
     "description":"",
     "icone": "school",
     "date": "Octobre 2015",
-    "link": "https://www.sylob.com/"
+    "link": "http://clever-institut.com/formation/backbone-js"
   },
   {
     "titre": "Licence STS - mention Informatique générale",
@@ -26,7 +26,7 @@
   {
     "titre": "Développeur Web",
     "etablissement": "Société INFOCERT",
-    "description":"",
+    "description":"<p>Réalisation de plusieurs applications web déployées nativement sur plateforme mobile (Android et IOS) grâce à PhoneGap.</p>",
     "icone": "computer",
     "date": "Juillet 2014",
     "link": "https://www.sylob.com/"
@@ -42,7 +42,7 @@
   {
     "titre": "Développeur Web",
     "etablissement": "Société INFOCERT",
-    "description":"",
+    "description":"<p>Réalisation d’une application web pour plateforme mobile (Android et IOS).</p>",
     "icone": "computer",
     "date": "Juillet 2013",
     "link": "http://www.infocert.org/"

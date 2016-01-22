@@ -1,9 +1,12 @@
+/* global define */
+'use strict';
+
 define([
-	'marionette',
+  'marionette',
   'underscore',
-	'text!templates/competences.html'
+  'text!templates/competences.html'
 ], function (Marionette, _, competencesTemplates) {
-	return Marionette.ItemView.extend({
-		template: _.template(competencesTemplates),
-	});
+  return Marionette.ItemView.extend({
+    template: _.template(competencesTemplates)
+  });
 });

@@ -1,3 +1,5 @@
+'use strict';
+
 define([
 	'marionette',
 	'text!templates/timelineItem.html'

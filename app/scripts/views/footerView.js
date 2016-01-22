@@ -1,9 +1,12 @@
+/* global define */
+'use strict';
+
 define([
-	'marionette',
+  'marionette',
   'underscore',
-	'text!templates/footer.html'
+  'text!templates/footer.html'
 ], function (Marionette, _, footerTemplates) {
-	return Marionette.ItemView.extend({
-		template: _.template(footerTemplates),
-	});
+  return Marionette.ItemView.extend({
+    template: _.template(footerTemplates)
+  });
 });

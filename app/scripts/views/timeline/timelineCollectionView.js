@@ -1,3 +1,5 @@
+'use strict';
+
 define([
   'marionette',
   'views/timeline/timelineItemView'

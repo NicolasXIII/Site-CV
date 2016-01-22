@@ -1,9 +1,12 @@
+/* global define */
+'use strict';
+
 define([
-	'marionette',
+  'marionette',
   'underscore',
-	'text!templates/apropos.html'
+  'text!templates/apropos.html'
 ], function (Marionette, _, aproposTemplates) {
-	return Marionette.ItemView.extend({
-		template: _.template(aproposTemplates),
-	});
+  return Marionette.ItemView.extend({
+    template: _.template(aproposTemplates)
+  });
 });
