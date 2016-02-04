@@ -12,6 +12,9 @@ require.config({
     marionette: {
       deps: ['backbone'],
       exports: 'Marionette'
+    },
+    bootstrap : {
+       deps :['jquery']
     }
   },
   paths : {
@@ -19,7 +22,8 @@ require.config({
     underscore : '../bower_components/underscore/underscore',
     backbone : '../bower_components/backbone/backbone',
     marionette : '../bower_components/backbone.marionette/lib/backbone.marionette',
-    text : '../bower_components/text/text'
+    text : '../bower_components/text/text',
+    bootstrap : '../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.min'
   }
 });
 require(['app'], function(App) {

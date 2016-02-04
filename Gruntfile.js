@@ -237,8 +237,8 @@ module.exports = function (grunt) {
           removeAttributeQuotes: true,
           removeRedundantAttributes: true,
           useShortDoctype: true,
-          removeEmptyAttributes: true,
-          removeOptionalTags: true */
+          removeEmptyAttributes: true,*/
+          removeOptionalTags: false 
         },
         files: [{
           expand: true,
@@ -261,7 +261,8 @@ module.exports = function (grunt) {
             'styles/fonts/{,*/}*.*',
             'data/*.*',
             'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*.*',
-            'bower_components/material-design-icons/iconfont/*.*'
+            'bower_components/material-design-icons/iconfont/*.*',
+            'fonts/socicon-1.3/*.*'
           ]
         }, {
           src: 'node_modules/apache-server-configs/dist/.htaccess',
